@@ -35,14 +35,16 @@ body {
   bottom: 0;
   transform: translate(50%, 50%);
 }
+
 /* center the card */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh; /* TODO update the height for the footer */
+  height: 95vh;
 }
+
 /* style the card  */
 .card {
   display: flex;
@@ -57,20 +59,23 @@ body {
   border-radius: 1rem;
   background-color: #fff;
 }
+
 /* card__bg */
 .card .card__bg {
+  /* adding bg */
   padding: 4.5rem;
   background-image: url("../images/bg-pattern-card.svg");
 }
+
 /* card__body */
 
-/* center the img */
 .card .card__body {
   position: relative;
   text-align: center;
   box-sizing: border-box;
 }
 .card__body .img {
+  /* center the img */
   position: relative;
   top: -50%;
   left: 50%;
@@ -87,6 +92,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 /* style the text */
 .card .disc {
   font-weight: 400;
@@ -122,6 +128,17 @@ body {
   display: block;
   font-weight: 900;
 }
+/* the footer */
+.footer {
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  color: #ccc;
+}
+.footer a {
+  color: teal;
+}
+
 /* responsive */
 @media screen and (max-width: 576px) {
   .bg {
